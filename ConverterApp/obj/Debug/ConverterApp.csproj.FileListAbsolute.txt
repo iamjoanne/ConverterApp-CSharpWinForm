@@ -7,3 +7,12 @@ c:\users\joanne\documents\visual studio 2015\Projects\ConverterApp\ConverterApp\
 c:\users\joanne\documents\visual studio 2015\Projects\ConverterApp\ConverterApp\obj\Debug\ConverterApp.csproj.GenerateResource.Cache
 c:\users\joanne\documents\visual studio 2015\Projects\ConverterApp\ConverterApp\obj\Debug\ConverterApp.exe
 c:\users\joanne\documents\visual studio 2015\Projects\ConverterApp\ConverterApp\obj\Debug\ConverterApp.pdb
+C:\Users\Joanne\Documents\MY PROJECTS\CSharp Projects\ConverterApp\ConverterApp\bin\Debug\ConverterApp.exe.config
+C:\Users\Joanne\Documents\MY PROJECTS\CSharp Projects\ConverterApp\ConverterApp\obj\Debug\ConverterApp.exe
+C:\Users\Joanne\Documents\MY PROJECTS\CSharp Projects\ConverterApp\ConverterApp\obj\Debug\ConverterApp.pdb
+C:\Users\Joanne\Documents\MY PROJECTS\CSharp Projects\ConverterApp\ConverterApp\bin\Debug\ConverterApp.exe
+C:\Users\Joanne\Documents\MY PROJECTS\CSharp Projects\ConverterApp\ConverterApp\bin\Debug\ConverterApp.pdb
+C:\Users\Joanne\Documents\MY PROJECTS\CSharp Projects\ConverterApp\ConverterApp\obj\Debug\ConverterApp.csprojResolveAssemblyReference.cache
+C:\Users\Joanne\Documents\MY PROJECTS\CSharp Projects\ConverterApp\ConverterApp\obj\Debug\ConverterApp.ConverterForm.resources
+C:\Users\Joanne\Documents\MY PROJECTS\CSharp Projects\ConverterApp\ConverterApp\obj\Debug\ConverterApp.Properties.Resources.resources
+C:\Users\Joanne\Documents\MY PROJECTS\CSharp Projects\ConverterApp\ConverterApp\obj\Debug\ConverterApp.csproj.GenerateResource.Cache

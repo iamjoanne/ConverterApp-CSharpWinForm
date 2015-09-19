@@ -33,12 +33,12 @@
             this.lblEnterConvert = new System.Windows.Forms.Label();
             this.txtBoxInput = new System.Windows.Forms.TextBox();
             this.grpBxUnits = new System.Windows.Forms.GroupBox();
-            this.rdBtnLbKg = new System.Windows.Forms.RadioButton();
-            this.rdBtnKgLbs = new System.Windows.Forms.RadioButton();
-            this.rdBtnFahrCel = new System.Windows.Forms.RadioButton();
-            this.rdBtnCelFahr = new System.Windows.Forms.RadioButton();
-            this.rdBtnKmphMph = new System.Windows.Forms.RadioButton();
             this.rdBtnMphKmph = new System.Windows.Forms.RadioButton();
+            this.rdBtnKmphMph = new System.Windows.Forms.RadioButton();
+            this.rdBtnCelFahr = new System.Windows.Forms.RadioButton();
+            this.rdBtnFahrCel = new System.Windows.Forms.RadioButton();
+            this.rdBtnKgLbs = new System.Windows.Forms.RadioButton();
+            this.rdBtnLbKg = new System.Windows.Forms.RadioButton();
             this.btnConvert = new System.Windows.Forms.Button();
             this.lnkLblToWebsite = new System.Windows.Forms.LinkLabel();
             this.lblOutput = new System.Windows.Forms.Label();
@@ -97,68 +97,8 @@
             this.grpBxUnits.Location = new System.Drawing.Point(102, 120);
             this.grpBxUnits.Name = "grpBxUnits";
             this.grpBxUnits.Size = new System.Drawing.Size(510, 187);
-            this.grpBxUnits.TabIndex = 0;
+            this.grpBxUnits.TabIndex = 1;
             this.grpBxUnits.TabStop = false;
-            // 
-            // rdBtnLbKg
-            // 
-            this.rdBtnLbKg.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.rdBtnLbKg.AutoSize = true;
-            this.rdBtnLbKg.Location = new System.Drawing.Point(7, 13);
-            this.rdBtnLbKg.Name = "rdBtnLbKg";
-            this.rdBtnLbKg.Size = new System.Drawing.Size(281, 27);
-            this.rdBtnLbKg.TabIndex = 1;
-            this.rdBtnLbKg.TabStop = true;
-            this.rdBtnLbKg.Text = "Pounds (lbs) to Kilograms (kgs)";
-            this.rdBtnLbKg.UseVisualStyleBackColor = true;
-            // 
-            // rdBtnKgLbs
-            // 
-            this.rdBtnKgLbs.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.rdBtnKgLbs.AutoSize = true;
-            this.rdBtnKgLbs.Location = new System.Drawing.Point(7, 41);
-            this.rdBtnKgLbs.Name = "rdBtnKgLbs";
-            this.rdBtnKgLbs.Size = new System.Drawing.Size(281, 27);
-            this.rdBtnKgLbs.TabIndex = 2;
-            this.rdBtnKgLbs.TabStop = true;
-            this.rdBtnKgLbs.Text = "Kilograms (kgs) to Pounds (lbs)";
-            this.rdBtnKgLbs.UseVisualStyleBackColor = true;
-            // 
-            // rdBtnFahrCel
-            // 
-            this.rdBtnFahrCel.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.rdBtnFahrCel.AutoSize = true;
-            this.rdBtnFahrCel.Location = new System.Drawing.Point(7, 69);
-            this.rdBtnFahrCel.Name = "rdBtnFahrCel";
-            this.rdBtnFahrCel.Size = new System.Drawing.Size(262, 27);
-            this.rdBtnFahrCel.TabIndex = 3;
-            this.rdBtnFahrCel.TabStop = true;
-            this.rdBtnFahrCel.Text = "Fahrenheit (°F) to Celsius (°C)";
-            this.rdBtnFahrCel.UseVisualStyleBackColor = true;
-            // 
-            // rdBtnCelFahr
-            // 
-            this.rdBtnCelFahr.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.rdBtnCelFahr.AutoSize = true;
-            this.rdBtnCelFahr.Location = new System.Drawing.Point(7, 97);
-            this.rdBtnCelFahr.Name = "rdBtnCelFahr";
-            this.rdBtnCelFahr.Size = new System.Drawing.Size(262, 27);
-            this.rdBtnCelFahr.TabIndex = 4;
-            this.rdBtnCelFahr.TabStop = true;
-            this.rdBtnCelFahr.Text = "Celsius (°C) to Fahrenheit (°F)";
-            this.rdBtnCelFahr.UseVisualStyleBackColor = true;
-            // 
-            // rdBtnKmphMph
-            // 
-            this.rdBtnKmphMph.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.rdBtnKmphMph.AutoSize = true;
-            this.rdBtnKmphMph.Location = new System.Drawing.Point(7, 125);
-            this.rdBtnKmphMph.Name = "rdBtnKmphMph";
-            this.rdBtnKmphMph.Size = new System.Drawing.Size(449, 27);
-            this.rdBtnKmphMph.TabIndex = 5;
-            this.rdBtnKmphMph.TabStop = true;
-            this.rdBtnKmphMph.Text = "Kilometers per hour (km/h) to Miles per hour (mph)";
-            this.rdBtnKmphMph.UseVisualStyleBackColor = true;
             // 
             // rdBtnMphKmph
             // 
@@ -167,10 +107,70 @@
             this.rdBtnMphKmph.Location = new System.Drawing.Point(6, 152);
             this.rdBtnMphKmph.Name = "rdBtnMphKmph";
             this.rdBtnMphKmph.Size = new System.Drawing.Size(449, 27);
-            this.rdBtnMphKmph.TabIndex = 0;
+            this.rdBtnMphKmph.TabIndex = 5;
             this.rdBtnMphKmph.TabStop = true;
             this.rdBtnMphKmph.Text = "Miles per hour (mph) to Kilometers per hour (km/h)";
             this.rdBtnMphKmph.UseVisualStyleBackColor = true;
+            // 
+            // rdBtnKmphMph
+            // 
+            this.rdBtnKmphMph.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rdBtnKmphMph.AutoSize = true;
+            this.rdBtnKmphMph.Location = new System.Drawing.Point(7, 125);
+            this.rdBtnKmphMph.Name = "rdBtnKmphMph";
+            this.rdBtnKmphMph.Size = new System.Drawing.Size(449, 27);
+            this.rdBtnKmphMph.TabIndex = 4;
+            this.rdBtnKmphMph.TabStop = true;
+            this.rdBtnKmphMph.Text = "Kilometers per hour (km/h) to Miles per hour (mph)";
+            this.rdBtnKmphMph.UseVisualStyleBackColor = true;
+            // 
+            // rdBtnCelFahr
+            // 
+            this.rdBtnCelFahr.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rdBtnCelFahr.AutoSize = true;
+            this.rdBtnCelFahr.Location = new System.Drawing.Point(7, 97);
+            this.rdBtnCelFahr.Name = "rdBtnCelFahr";
+            this.rdBtnCelFahr.Size = new System.Drawing.Size(262, 27);
+            this.rdBtnCelFahr.TabIndex = 3;
+            this.rdBtnCelFahr.TabStop = true;
+            this.rdBtnCelFahr.Text = "Celsius (°C) to Fahrenheit (°F)";
+            this.rdBtnCelFahr.UseVisualStyleBackColor = true;
+            // 
+            // rdBtnFahrCel
+            // 
+            this.rdBtnFahrCel.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rdBtnFahrCel.AutoSize = true;
+            this.rdBtnFahrCel.Location = new System.Drawing.Point(7, 69);
+            this.rdBtnFahrCel.Name = "rdBtnFahrCel";
+            this.rdBtnFahrCel.Size = new System.Drawing.Size(262, 27);
+            this.rdBtnFahrCel.TabIndex = 2;
+            this.rdBtnFahrCel.TabStop = true;
+            this.rdBtnFahrCel.Text = "Fahrenheit (°F) to Celsius (°C)";
+            this.rdBtnFahrCel.UseVisualStyleBackColor = true;
+            // 
+            // rdBtnKgLbs
+            // 
+            this.rdBtnKgLbs.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rdBtnKgLbs.AutoSize = true;
+            this.rdBtnKgLbs.Location = new System.Drawing.Point(7, 41);
+            this.rdBtnKgLbs.Name = "rdBtnKgLbs";
+            this.rdBtnKgLbs.Size = new System.Drawing.Size(281, 27);
+            this.rdBtnKgLbs.TabIndex = 1;
+            this.rdBtnKgLbs.TabStop = true;
+            this.rdBtnKgLbs.Text = "Kilograms (kgs) to Pounds (lbs)";
+            this.rdBtnKgLbs.UseVisualStyleBackColor = true;
+            // 
+            // rdBtnLbKg
+            // 
+            this.rdBtnLbKg.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.rdBtnLbKg.AutoSize = true;
+            this.rdBtnLbKg.Location = new System.Drawing.Point(7, 13);
+            this.rdBtnLbKg.Name = "rdBtnLbKg";
+            this.rdBtnLbKg.Size = new System.Drawing.Size(281, 27);
+            this.rdBtnLbKg.TabIndex = 0;
+            this.rdBtnLbKg.TabStop = true;
+            this.rdBtnLbKg.Text = "Pounds (lbs) to Kilograms (kgs)";
+            this.rdBtnLbKg.UseVisualStyleBackColor = true;
             // 
             // btnConvert
             // 
@@ -182,7 +182,7 @@
             this.btnConvert.Location = new System.Drawing.Point(293, 325);
             this.btnConvert.Name = "btnConvert";
             this.btnConvert.Size = new System.Drawing.Size(129, 42);
-            this.btnConvert.TabIndex = 1;
+            this.btnConvert.TabIndex = 2;
             this.btnConvert.Text = "Convert";
             this.btnConvert.UseVisualStyleBackColor = false;
             this.btnConvert.Click += new System.EventHandler(this.btnConvert_Click);
@@ -197,7 +197,7 @@
             this.lnkLblToWebsite.Location = new System.Drawing.Point(302, 503);
             this.lnkLblToWebsite.Name = "lnkLblToWebsite";
             this.lnkLblToWebsite.Size = new System.Drawing.Size(114, 20);
-            this.lnkLblToWebsite.TabIndex = 2;
+            this.lnkLblToWebsite.TabIndex = 4;
             this.lnkLblToWebsite.TabStop = true;
             this.lnkLblToWebsite.Text = "iamjoanne.info";
             this.lnkLblToWebsite.VisitedLinkColor = System.Drawing.Color.LightSeaGreen;
