@@ -13,4 +13,4 @@
 ![Example](http://i.imgur.com/4ie4rUM.png?1 "Example")
 
 #####Help
-![Help](http://i.imgur.com/4ie4rUM.png?1 "Help")
+![Help](http://i.imgur.com/Ga53EVl.png?1 "Help")
